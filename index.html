@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Layout</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <style>
+        html,
+        body {
+            height: 100%;
+            background: grey;
+            background: rgb(0,0,0);
+            background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(107,110,119,1) 30%, rgba(107,110,119,1) 66%, rgba(0,0,0,1) 100%);
+        }
+
+        #img {
+            width: 150px;
+            height: 150px;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <div class="container h-100">
+        <div id="header" class="h-25 d-flex  flex-column align-items-center justify-content-md-between align-items-md-start flex-md-row">
+            <div id="logo" class="h3 text-white">LOGO</div>
+            <div>
+                <span class="ml-2 h5 text-white">Home</span>
+                <span class="ml-2 h5 text-white">Features</span>
+                <span class="ml-2 h5 text-white">Works</span>
+                <span class="ml-2 h5 text-white">Contact</span>
+            </div>
+        </div>
+        <div id="main" class="h-50">
+            <div class="d-flex flex-column align-items-center">
+                <div id="img" class="rounded-circle  border-danger bg-secondary modal-open mb-3 text-white">
+                    <img src="https://picsum.photos/200/200/?random=1">
+                </div>
+                <div class="h1 mb-3 text-white">Bootstrap Layout</div>
+                <div class="h4 mb-3 text-white">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam itaque quam nisi tenetur, maiores harum qui corrupti accusantium exercitationem dolores non ducimus temporibus dolore optio quis, quae provident! Illo, sunt.</div>
+                <div class="h1 mb-3 text-white">
+                    <button type="button" class="btn btn-light">Learn More</button>
+                </div>
+            </div>
+        </div>
+        <div id="footer" class="h-25">
+            <div class="w-100 h-100 d-flex justify-content-center align-items-end">
+                <span class="h6 text-white">Design by Kaifu</span>
+            </div>
+        </div>
+    </div>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/jquery-3.6.0.min.js"></script>
+</body>
+</html>
